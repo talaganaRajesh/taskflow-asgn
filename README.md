@@ -1,41 +1,147 @@
-Personal Task Tracker
-Description
-A responsive personal task management application built with React.js and Vite. Users can log in with a username, manage tasks (add, edit, delete, toggle completion), filter tasks by status, and search tasks by title or description. The application features a dark mode toggle for enhanced user experience and persists data using localStorage. The UI is styled with Tailwind CSS for a modern, mobile-friendly design.
-Features
+# TaskFlow - Personal Task Tracker
 
-Simple login with username stored in localStorage
-Add tasks with required title and optional description
-Edit tasks inline with validation
-Delete tasks with confirmation prompt
-Toggle task completion status
-Filter tasks by All, Completed, or Pending
-Search tasks by title or description (Bonus)
-Dark mode toggle (Bonus)
-Responsive design with Tailwind CSS
-Data persistence using localStorage
+![TaskFlow Logo](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/logo.png)
 
-Setup Instructions
+## 📖 Description
 
-Clone the repository: git clone <your-repo-url>
-Navigate to the project directory: cd task-tracker
-Install dependencies: npm install
-Start the development server: npm start
-Open http://localhost:5173 in your browser
+**TaskFlow** is a sleek, modern personal task management application developed as part of the RYGNeco Web Development Internship assignment. Inspired by premium corporate UIs like Google Workspace and Microsoft 365, it offers an intuitive experience with a simple login, robust task management, and a responsive interface. The app defaults to a light theme with a soft white background and includes a pure black dark mode toggle for enhanced usability. Built with React and Vite, styled with Tailwind CSS, and powered by `localStorage` for persistence, TaskFlow stands out with bonus features like search functionality and dark mode, demonstrating initiative and attention to detail.
 
-Technologies Used
+- **Author**: Talagana Rajesh  
+- **Email**: talaganarajesh@gmail.com  
+- **GitHub**: [github.com/talaganarajesh](https://github.com/talaganarajesh)  
+- **Submission Date**: Friday, July 04, 2025
 
-React.js
-Vite (build tool)
-Tailwind CSS
-LocalStorage for data persistence
+## 🚀 Features
 
-Live Demo
-[Link to deployed application (to be updated after deployment)]
-Screenshots
-(To be added after deployment)
-Notes
+- **Simple Login**: Secure username-based login with persistence via `localStorage`.
+- **Task Management**: Add, edit, delete, and toggle completion status of tasks with inline editing.
+- **Task Display**: View tasks with titles and optional descriptions, styled with line-through for completed tasks.
+- **Filtering**: Filter tasks by All, Completed, or Pending statuses.
+- **Bonus Features**:
+  - **Search Functionality**: Search tasks by title or description for quick access.
+  - **Dark Mode Toggle**: Switch between a light theme (default) and a pure black dark theme with smooth transitions.
+- **Statistics**: Real-time counts for total, completed, and pending tasks.
+- **Responsive Design**: Optimized for desktop and mobile devices with a premium, corporate-inspired UI.
 
-The application uses inline editing for tasks to streamline the user experience.
-Bonus features (search and dark mode) enhance usability and demonstrate initiative.
-The codebase is modular, with separate components for login, task management, and filtering.
-Error handling is implemented for localStorage operations to ensure robustness.
+## 🛠 Setup Instructions
+
+To run TaskFlow locally on your machine, follow these steps:
+
+### Prerequisites
+- Node.js (version 18.x or 20.x LTS recommended)
+- npm (comes with Node.js)
+- Git (optional, for cloning the repository)
+
+### Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/talaganarajesh/task-tracker.git
+   cd task-tracker
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**:
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+4. **Build for Production**  
+   To create a production build:
+   ```bash
+   npm run build
+   ```
+   The build artifacts will be stored in the `dist/` directory, ready for deployment.
+
+## 🧰 Technologies Used
+
+**Frontend**:  
+- React – A JavaScript library for building user interfaces.  
+- Vite – Next-generation frontend tooling for fast development.
+
+**Styling**:  
+- Tailwind CSS – Utility-first CSS framework for rapid UI development.
+
+**Persistence**:  
+- `localStorage` – Browser API for storing user data locally.
+
+**Deployment**:  
+- Vercel – Platform for static site hosting and deployment.
+
+## 🔗 Live Demo
+
+Experience TaskFlow live at:  
+👉 [https://taskflow-rygneco.vercel.app/](https://taskflow-rygneco.vercel.app/)
+
+## 🖼 Screenshots
+
+**Login Page**  
+![Login Page](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/login.png)
+
+**Task Dashboard (Light Mode)**  
+![Task Dashboard - Light Mode](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/dashboard-light.png)
+
+**Task Dashboard (Dark Mode)**  
+![Task Dashboard - Dark Mode](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/dashboard-dark.png)
+
+**Adding a Task**  
+![Add Task](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/add-task.png)
+
+## 📁 Project Structure
+
+```
+task-tracker/
+├── index.html
+├── src/
+│   ├── components/
+│   │   ├── Login.jsx
+│   │   ├── TaskDashboard.jsx
+│   │   ├── TaskForm.jsx
+│   │   ├── TaskList.jsx
+│   │   ├── TaskItem.jsx
+│   │   └── TaskFilter.jsx
+│   ├── utils/
+│   │   └── localStorage.js
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 📝 Notes
+
+### Design Philosophy  
+TaskFlow features a premium, corporate-inspired design with a unique "TaskFlow" branding, highlighted by an orange accent color and smooth animations. The light theme uses soft grays, while the dark theme is pure black for a striking contrast.
+
+### Bonus Features  
+The inclusion of search and dark mode reflects initiative, aligning with the assignment's encouragement for extra effort.
+
+
+### Testing  
+The application has been rigorously tested for edge cases (e.g., empty inputs, no tasks, persistence across refreshes) and performs well on Chrome, Firefox, and Safari.
+
+### Challenges Overcome  
+Successfully resolved an initial issue with task persistence on refresh by initializing state with localStorage data and correcting default values.
+
+### Future Improvements  
+Potential enhancements include task priorities, due dates, or integration with a backend API for multi-device support (post-internship).
+
+## 🤝 Contribution Guidelines
+
+This project is submitted for the RYGNeco internship and is not open for external contributions at this time. However, feedback is welcome via email at [talaganarajesh@gmail.com](mailto:talaganarajesh@gmail.com).
+
+## 📜 License
+
+This project is for educational purposes under the RYGNeco internship assignment and is not licensed for commercial use.  
+**All rights reserved by Talagana Rajesh.**
+
+## 🌐 Portfolio
+
+Explore more of my projects at:  
+👉 [https://talaganarajesh.vercel.app/](https://talaganarajesh.vercel.app/)
