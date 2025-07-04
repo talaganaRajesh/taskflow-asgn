@@ -32,7 +32,7 @@ const TaskItem = ({ task, onToggleComplete, onEdit, onDelete, isDarkMode }) => {
       isDarkMode 
         ? 'bg-zinc-900 border-zinc-800 hover:border-zinc-700' 
         : 'bg-white border-gray-200 hover:border-gray-300'
-    } ${task.completed ? 'opacity-75' : ''}`}>
+    } `}>
       <div className="flex items-start gap-4">
         {/* Checkbox */}
         <button
@@ -53,7 +53,7 @@ const TaskItem = ({ task, onToggleComplete, onEdit, onDelete, isDarkMode }) => {
         </button>
 
         {/* Task Content */}
-        <div className="flex-1 min-w-0">
+        <div className={`flex-1 min-w-0 ${task.completed ? 'opacity-50' : ''} `}>
           <h3 className={`text-lg font-semibold mb-1 ${
             task.completed 
               ? isDarkMode 
