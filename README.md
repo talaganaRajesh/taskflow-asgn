@@ -1,6 +1,5 @@
 # TaskFlow - Personal Task Tracker
 
-![TaskFlow Logo](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/logo.png)
 
 ## Overview
 
