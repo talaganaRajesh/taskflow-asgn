@@ -80,18 +80,18 @@ Experience TaskFlow live at:
 ## 🖼 Screenshots
 
 **Login Page**  
-![Login Page](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/public/login-light.png)
-![Login Page](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/public/login-dark.png)
+![Login Page](https://raw.githubusercontent.com/talaganaRajesh/taskflow-asgn/refs/heads/main/screenshots/login-light.png)
+![Login Page](https://raw.githubusercontent.com/talaganaRajesh/taskflow-asgn/refs/heads/main/screenshots/login-dark.png)
 
 
 **Task Dashboard (Light Mode)**  
-![Task Dashboard - Light Mode](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/public/dashboard-light.png)
+![Task Dashboard - Light Mode](https://raw.githubusercontent.com/talaganaRajesh/taskflow-asgn/refs/heads/main/screenshots/dashboard-light.png)
 
 **Task Dashboard (Dark Mode)**  
-![Task Dashboard - Dark Mode](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/public/dashboard-dark.png)
+![Task Dashboard - Dark Mode](https://raw.githubusercontent.com/talaganaRajesh/taskflow-asgn/refs/heads/main/screenshots/dashboard-dark.png)
 
 **Adding a Task**  
-![Add Task](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/addtask-light.png)
+![Add Task](https://raw.githubusercontent.com/talaganaRajesh/taskflow-asgn/refs/heads/main/screenshots/addtask-light.png)
 
 ## 📁 Project Structure
 
