@@ -1,6 +1,5 @@
 # TaskFlow - Personal Task Tracker
 
-![TaskFlow Logo](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/logo.png)
 
 ## 📖 Description
 
@@ -81,16 +80,18 @@ Experience TaskFlow live at:
 ## 🖼 Screenshots
 
 **Login Page**  
-![Login Page](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/login.png)
+![Login Page](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/public/login-light.png)
+![Login Page](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/public/login-dark.png)
+
 
 **Task Dashboard (Light Mode)**  
-![Task Dashboard - Light Mode](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/dashboard-light.png)
+![Task Dashboard - Light Mode](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/public/dashboard-light.png)
 
 **Task Dashboard (Dark Mode)**  
-![Task Dashboard - Dark Mode](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/dashboard-dark.png)
+![Task Dashboard - Dark Mode](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/public/dashboard-dark.png)
 
 **Adding a Task**  
-![Add Task](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/add-task.png)
+![Add Task](https://raw.githubusercontent.com/talaganarajesh/task-tracker/main/screenshots/addtask-light.png)
 
 ## 📁 Project Structure
 
